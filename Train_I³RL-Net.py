@@ -169,4 +169,4 @@ def test_model(model, test_loader):
 for epoch in range(1, EPOCH + 1):
     train_model(model, train_loader, optimizer, epoch)
     test_model(model, test_loader)
-torch.save(model, './Models/EICL-Net.pkl')
+torch.save(model, './Models/I³RL-Net.pkl')
