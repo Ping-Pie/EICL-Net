@@ -258,7 +258,7 @@ all_data_loader = Data.DataLoader(dataset=all_data,
 class_count = np.zeros(Categories_Number)
 
 # 生成着色图
-transformer = torch.load('./Models/EICL-Net.pkl')
+transformer = torch.load('./Models/I³RL-Net.pkl')
 transformer.cuda()
 
 print('begin generare out_quanse..............')
