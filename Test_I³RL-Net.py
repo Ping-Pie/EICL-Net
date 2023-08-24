@@ -122,7 +122,7 @@ train_loader = DataLoader(dataset=train_data, batch_size=BATCH_SIZE, shuffle=Fal
 test_loader = DataLoader(dataset=test_data, batch_size=BATCH_SIZE, shuffle=False, num_workers=0)
 all_data_loader = DataLoader(dataset=all_data, batch_size=BATCH_SIZE, shuffle=False, num_workers=0)
 
-transformer = torch.load('./Models/EICL-Net.pkl')
+transformer = torch.load('./Models/I³RL-Net.pkl')
 transformer.cuda()
 
 l = 0
